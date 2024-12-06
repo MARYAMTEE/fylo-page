@@ -83,7 +83,7 @@ h3{
     list-style-type: none;
 }
 
-
+/* This is the first section */
 .para1{
     text-align: center;
     padding: 20px 0;
@@ -136,6 +136,7 @@ input:focus:invalid + .error-message{
     padding: 14px;
     border-radius: 5px;
     box-shadow: 0 0.5rem 1rem rgba(191, 191, 191, 0.2); 
+    cursor: pointer;
 }
 
 .access-form{
@@ -168,6 +169,7 @@ input:focus:invalid + .error-message{
         border-bottom: 2px solid var(--Moderate-Cyan);
         font-size: 14px;
         padding: 40px 0 3px 0;
+        cursor: pointer;
 }
 
 .btn-svg{
@@ -282,7 +284,19 @@ input:focus:invalid + .error-message{
     width: 100%;
     max-width: 100%;
     margin: 0;
-    padding: 30px;
+    padding: 30px 50px;
+}
+
+.section-two{
+    padding-bottom: 55px;
+}
+
+.first-sec{
+    margin: auto 0;
+}
+
+.nav__list{
+    gap: 3rem;
 }
 
 h1{
@@ -291,7 +305,7 @@ h1{
 }
 
 h4, .para1{
-    max-width: 31.5rem;
+    max-width: 31.9rem;
 }
 
 .para2{
@@ -318,19 +332,23 @@ h1, h3, h2, .para1, .para2{
     text-align: start;
 }
 
+.bck-img{
+    padding: 100px 0; 
+}
+
 .access-form{
     display: flex;
 }
 
 #email{
-    width: 20rem;
+    width: 22rem;
     margin-bottom: 0;
     padding: 20px;
 }
 
 .btn{
-    width: 15rem;
-    margin-left: 15px;
+    width: 13rem;
+    margin-left: 20px;
 }
 
 #sign-up{
@@ -343,16 +361,32 @@ h1, h3, h2, .para1, .para2{
     margin-bottom: 40px;
 }
 
-.item-1 { order: 2; }
-.item-2 { order: 1; }
-.item-3 { order: 3; }
+.item-1 { 
+    order: 2; 
+}
+.item-2 { 
+    order: 1; 
+}
+.item-3 { 
+    order: 3; 
+}
 
 .testimonial-section{
     margin: 0;
+    margin-top: -280px;
+    height: 12.5rem;
 }
 
 .section-four{
     text-align: start;
+}
+
+.imgs{
+    width: 200;
+}
+
+.illustration-container{
+    margin-bottom: -1px;
 }
 
 }
