@@ -418,7 +418,7 @@ h1, h3, h2, .para1, .para2{
 
 #sign-up{
     width: 30rem;
-    padding: 12px;
+    padding: 16px;
 }
 
 .btn-1{
@@ -440,6 +440,10 @@ h1, h3, h2, .para1, .para2{
     margin: 0;
     margin-top: -280px;
     height: 12.5rem;
+}
+
+.section-three{
+    padding: 0;
 }
 
 .section-four{
